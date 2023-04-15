@@ -19,7 +19,7 @@ app.use(express.json())
 app.use('/', mediRoutes)
  
 app.listen(process.env.PORT, ()=>{
-    console.log(`Server is running on 2121, you better catch it!`)
+    console.log(`Server is running, you better catch it!`)
 })    
 
 
